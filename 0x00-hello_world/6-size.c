@@ -1,10 +1,10 @@
-#include <stdio.>
+#include <stdio.h>
 /**
- *main - prints the size of char,int,longlong int .float
- *return: 0 if succeed
+ *main - Prints the sizeof char,int,long int,long long int and float
+ *Return: 0 if Success
  */
 int main (void)
-  {
+    {
     char f;
     int g;
     long int h;

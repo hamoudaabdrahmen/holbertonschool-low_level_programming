@@ -1,16 +1,21 @@
 #include <stdio.h>
 
-int main()
+/**
+ * main -  Prints all the alphabets in lowercase then in upercase.
+ *
+ * Return: Always 0 (Success)
+ */
+int main(void)
 {
-    for(int x = 'A'; x <= 'Z'; x++) // jumps from 'A'(65) to 'B'(66) to ... in order.
-    {
-        putchar(tolower(x)); // the return value is returned as a parameter
-    }
-    putchar ('\n');
-    for(int x = 'A'; x <= 'Z'; x++) // jumps from 'A'(65) to 'B'(66) to ... in order.
-    {
-        putchar((x)); // the return value is returned as a parameter
-    }
-    
-    return 0;
+int i;
+for (i = 97; i < 123; i++)
+{
+putchar(i);
+}
+for (i = 65; i < 91; i++)
+{
+putchar(i);
+}
+putchar ('\n');
+return (0);
 }

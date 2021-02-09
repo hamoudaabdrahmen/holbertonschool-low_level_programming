@@ -4,7 +4,7 @@
  *
  *Return: int (0)
  */
-int main()
+int main(void)
 {
 int i;
 char t[] = {'H', 'o', 'l', 'b', 'e', 'r', 't', 'o', 'n', '\n'};

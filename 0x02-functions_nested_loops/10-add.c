@@ -1,15 +1,11 @@
 #include "holberton.h"
 
 /**
- * main - check the code for Holberton School students.
+ * add - a function that returns sum of two int.
  *
- * Return: Always 0.
+ * Return: a+b.
  */
-int main(void)
+int add(int a, int b)
 {
-int n;
-
-n = add(89, 9);
-printf("%d\n", n);
-return (0);
+return (a + b);
 }

@@ -2,6 +2,7 @@
 /**
  * *leet - encoder func
  * @s:given string
+ * *Return: the encoded string.
  */
 char *leet(char *s)
 {
@@ -18,5 +19,5 @@ s[i] = array_leet[j];
 }
 i++;
 }
-return(s);
+return (s);
 }

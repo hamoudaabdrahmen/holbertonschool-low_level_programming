@@ -1,10 +1,10 @@
 #include "holberton.h"
 /**
- * _memeset - fills memory with constant byte.
+ * _memset - fills memory with constant byte.
  * @s: array of char
  * @b: array of chat
  * @n: number of bytes
- * Return: (s)
+ * Return:(s)
  */
 char *_memset(char *s, char b, unsigned int n)
 {

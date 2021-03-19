@@ -4,15 +4,18 @@
 #include <string.h>
 /**
  * struct list_s - singly linked list
- * @str: string - allocated string
- * @len:lengh of the string
- * @next:point to the next node
+ * @str: string - (malloc'ed string)
+ * @len: length of the string
+ * @next: points to the next node
+ *
+ * Description: singly linked list node structure
+ * for Holberton project
  */
-typedef struct list {
+typedef struct list_s
+{
     char *str;
     unsigned int len;
-    struct list *next;
-
+    struct list_s *next;
 } list_t;
 size_t print_list(const list_t *h);
 int _putchar(char);

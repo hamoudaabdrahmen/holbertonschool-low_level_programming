@@ -1,26 +1,27 @@
-#include<stdio.h>
-/**
- *main - prints 50 first fibonacci.
- */
-void main(void)
-{
-long int a, b, r;
-int i;
+#include <stdio.h>
 
-a = 1;
-b = 2;
-r = 0;
-i = 0;
-printf ("1, 2, ");
-while (i <= 48)
+/**
+ * main - print fibonacci
+ *
+ * Return: always 0
+ */
+int main(void)
 {
-r = a + b;
-printf("%li", r);
-i++;
-if (i <= 47)
-printf(", ");
-a = b;
-b = r;
-}
- putchar('\n');
+	long int a, b, c, d;
+
+	a = 1;
+	b = 2;
+	c = 3;
+
+	printf("%ld, ", a);
+	printf("%ld, ", b);
+	for (d = 3; d < 50; d++)
+	{
+		printf("%ld, ", c);
+		a = b;
+		b = c;
+		c = a + b;
+	}
+	printf("%ld\n", c);
+	return (0);
 }
